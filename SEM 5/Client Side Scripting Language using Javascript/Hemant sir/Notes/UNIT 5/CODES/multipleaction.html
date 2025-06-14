@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Text Rollover</title>
+
+<script type="text/javascript">
+	function display1()
+	{
+		document.fruit.src="apple.jpg"
+		document.getElementByID("para").innerHTMl="trees of apple is larger than trees of pineapple";
+	}
+	function display2()
+	{
+		document.fruit.src="papple.jpg"
+		document.getElementByID("para").innerHTMl="trees of pineapple is  smaller than trees of apple";
+	}
+</script>
+</head>
+<body>
+	
+	<h2>Image Rollover</h2>
+
+	<a onmouseover="display1()">
+		<h4>Apple</h4></a>
+
+<a onmouseover="display2()">
+		<h4>Pineapple</h4></a>
+<a><img src='apple.jpg' name="fruit"></a>
+<p id="para">trees of apple is larger than trees of pineapple</p>
+</body>
+</html>

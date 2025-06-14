@@ -1,0 +1,14 @@
+<html>
+<head>
+<title>Create a Frame</title>
+</head>
+<body> 
+	<H1 align=center>Frame 2</H1>
+<ul>
+<li>
+<a href=" Fruits.html" id="fruit" target="frame4.html">Fruits</li>
+<li><a href=" Flower.html" id="flower" target="frame4.html">Flower</li>
+<li><a href=" Cities.html" id="cities" target="frame4.html">Cities</li>
+</ul>
+</body>
+</html>	

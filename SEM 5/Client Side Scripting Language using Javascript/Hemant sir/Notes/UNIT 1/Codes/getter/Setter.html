@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Setter</title>
+	<script type="text/javascript">
+		var car=
+		{
+			color:"Red",
+			brand:"Ford",
+			set company(value)
+			{
+				 this.brand=value;
+			}
+		};
+		document.write("Company="+car.brand);
+		car.company="Maruti";
+		document.write("<br>Company="+car.brand);
+	</script>
+</head>
+<body>

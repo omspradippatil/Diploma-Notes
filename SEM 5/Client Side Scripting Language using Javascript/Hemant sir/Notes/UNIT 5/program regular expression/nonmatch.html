@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Regular Expression code to find the non-matching characters</title>
+	<script type="text/javascript">
+		var p= /[^abc]/;
+		function testMatch()
+		{
+			var str=textfield.value;
+			if (p.test(str))
+			 {
+			 		alert("The String  "+str+"  Contains characters other than abc");
+			}
+			else
+			{
+			alert("The String  "+ str +"  does not Contains characters other than abc");	
+			}
+		}
+
+
+			</script>
+</head>
+<body>
+<h3>Checking the avaibility of string non matching</h3>
+Enter the String<input type="text" id="textfield"/>
+<input type="button" value="Check" onclick="testMatch();"/>
+</body>
+</html>

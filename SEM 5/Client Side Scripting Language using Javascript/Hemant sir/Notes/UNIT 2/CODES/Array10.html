@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Removing an Array Element </title>
+	<script type="text/javascript">
+		document.write("<h1>Adding and Removing an Array Element Using splice() Method </h1>");
+		var a=new Array();
+		a[0]="C";
+		a[1]="C++";
+	
+		document.write("<br> Original length="+a.length+"<br>");
+		for (var i = 0; i<a.length ; i++) 
+		{
+			document.write(a[i]+"<br>");
+		}
+		
+		a.splice(2,0,"Java","CSS");
+		document.write("<br> New length="+a.length+"<br>");
+		for (var i = 0; i<a.length ; i++) 
+		{
+			document.write(a[i]+"<br>");
+		}
+		
+		a.splice(2);
+		document.write("<br> New length="+a.length+"<br>");
+		for (var i = 0; i<a.length ; i++) 
+		{
+			document.write(a[i]+"<br>");
+		}
+	</script>
+</head>
+<body>
+
+</body>
+</html>

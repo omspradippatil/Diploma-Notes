@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SlideShow Demo</title>
+	<script type="text/javascript">
+	img_array=new Array ('apple.jpg','orange.jpg','banana.jpg','watermelon.jpg');
+	
+	function DisplayImg(num)
+	{
+		img=1;
+		img=img+num;
+		if(img>img_array.length-1)
+		{
+			img=0;
+		}
+		if (img<0)
+		 {
+		 	img=img_array.length-1;
+		}
+		document.slide.src=img_array[img];
+	}
+	</script>
+	
+</head>
+<body>
+<img src="banner.jpg" width="400" height="220" name="slide">
+<br><br>
+<input type="button" value="Previous" onclick="DisplayImg(-1)">
+<input type="button" value="Next" onclick="DisplayImg(1)">
+</body>
+</html>

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Replace Text</title>
+	<script type="text/javascript">
+	var mystr='I will Fail';
+		document.write(mystr+ "<br>");	
+	var newstr=mystr.replace(Fail,"pass");
+	document.write(newstr);	
+			</script>
+</head>
+<body>
+</body>
+</html>
